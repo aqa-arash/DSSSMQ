@@ -42,9 +42,6 @@ def Solver(n1, n2, o):
 
     Returns:
         resulting integer.
-
-    Raises:
-        KeyError: See random.randint error handling.
     """
 
     p = f"{n1} {o} {n2}"
@@ -66,7 +63,7 @@ def math_quiz():
         Interactive. 
 
     Raises:
-        ValueError: If a non integer input is given by user.
+        TypeError: If a non integer input is given by user.
     """
 
     Correct_Answers = 0
