@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     py_modules=['math_quiz'],
     install_requires=[
-        random,
+    
     ],
     entry_points={
         'console_scripts': [

@@ -1,2 +1,1 @@
-# Add any dependencies your project requires
-random
+# No requirements
